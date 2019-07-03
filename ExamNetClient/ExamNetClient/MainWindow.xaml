@@ -1,0 +1,30 @@
+﻿<Window x:Class="ExamNetClient.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExamNetClient"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="399.2" Closing="WindowClosing">
+    <Grid>
+        <TextBox Name="serverIpTextBox" HorizontalAlignment="Left" Height="23" Margin="10,41,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" KeyDown="ServerIpTextBoxKeyDown"/>
+        <Label Content="Ip" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="serverPortTextBox" HorizontalAlignment="Left" Height="23" Margin="135,41,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" KeyDown="ServerPortTextBoxKeyDown"/>
+        <Label Content="Port" HorizontalAlignment="Left" Margin="135,10,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button Name="connectButton" Click="ConnectButtonClick" Content="Connect" HorizontalAlignment="Left" Margin="10,78,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Name="createButton" Content="Create Lobby" HorizontalAlignment="Left" Margin="10,110,0,0" VerticalAlignment="Top" Width="86" Click="CreateButtonClick"/>
+        <Button Name="joinButton" Content="Join Lobby" HorizontalAlignment="Left" Margin="10,134,0,0" VerticalAlignment="Top" Width="86" Click="JoinButtonClick"/>
+        <Button Name="leaveButton" Content="Leave Lobby" HorizontalAlignment="Left" Margin="10,158,0,0" VerticalAlignment="Top" Width="86" Click="LeaveButtonClick"/>
+        <TextBox Name="lobbyIdTextBox" HorizontalAlignment="Left" Height="23" Margin="114,130,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="logTextBox" HorizontalAlignment="Left" Height="149" Margin="10,261,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="370"/>
+        <TextBox Name="sendNumberTextBox" HorizontalAlignment="Left" Height="23" Margin="114,213,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" KeyDown="SendNumberTextBoxKeyDown"/>
+        <Button Name="numberSendButton" Content="Send" HorizontalAlignment="Left" Margin="305,217,0,0" VerticalAlignment="Top" Width="75" Click="NumberSendButtonClick"/>
+        <Button Name="startGameButton" Click="StartGameButtonClick" Content="Start Game" HorizontalAlignment="Left" Margin="10,182,0,0" VerticalAlignment="Top" Width="86"/>
+        <Label Content="UserName" HorizontalAlignment="Left" Margin="260,10,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="userNameTextBox" HorizontalAlignment="Left" Height="23" Margin="260,41,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Number" HorizontalAlignment="Left" Margin="114,182,0,0" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="260,84,0,0" TextWrapping="Wrap" Text="Lobby: " VerticalAlignment="Top"/>
+        <TextBlock Name="lobbyIdTextBlock" HorizontalAlignment="Left" Margin="305,84,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="76"/>
+
+    </Grid>
+</Window>

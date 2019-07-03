@@ -1,0 +1,14 @@
+S:\VisualStudio\Net\ExamNet\ExamNet\bin\Debug\ExamNet.exe.config
+S:\VisualStudio\Net\ExamNet\ExamNet\bin\Debug\ExamNet.exe
+S:\VisualStudio\Net\ExamNet\ExamNet\bin\Debug\ExamNet.pdb
+S:\VisualStudio\Net\ExamNet\ExamNet\obj\Debug\ExamNet.csprojAssemblyReference.cache
+S:\VisualStudio\Net\ExamNet\ExamNet\obj\Debug\ExamNet.csproj.CoreCompileInputs.cache
+S:\VisualStudio\Net\ExamNet\ExamNet\obj\Debug\ExamNet.exe
+S:\VisualStudio\Net\ExamNet\ExamNet\obj\Debug\ExamNet.pdb
+D:\Net\ExamNet\ExamNet\bin\Debug\ExamNet.exe.config
+D:\Net\ExamNet\ExamNet\bin\Debug\ExamNet.exe
+D:\Net\ExamNet\ExamNet\bin\Debug\ExamNet.pdb
+D:\Net\ExamNet\ExamNet\obj\Debug\ExamNet.csprojAssemblyReference.cache
+D:\Net\ExamNet\ExamNet\obj\Debug\ExamNet.csproj.CoreCompileInputs.cache
+D:\Net\ExamNet\ExamNet\obj\Debug\ExamNet.exe
+D:\Net\ExamNet\ExamNet\obj\Debug\ExamNet.pdb
